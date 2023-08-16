@@ -66,8 +66,10 @@ int main() {
         printf("\n Periodo: %s", periodo);
         printf("\n Semestre: %d", semestre);
         printf("\n Disciplinas: %s", disciplinas);
-        printf("\n Media: %f", media);
+        printf("\n Media: %.2f", media);
 
+        printf("\n----------------------------------------");
+        
         printf("\n \n Voce confirma seus dados? (s/n): ");
         scanf("%c", &dados);
         fflush(stdin);
@@ -79,9 +81,11 @@ int main() {
             x = 0;
             printf("\n Seu cadastro foi negado. Por favor volte para o inicio!\n");
         }
-    }
 
-    printf("\n CADASTRO FEITO COM SUCESSO! \n");
+        printf("\n----------------------------------------");
+    }
+ 
+    printf(" CADASTRO FEITO COM SUCESSO! \n \n");
 
     return 0;
 }
