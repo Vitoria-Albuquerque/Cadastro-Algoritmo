@@ -16,7 +16,7 @@ int main() {
     char dados = 'n';
     int x = 0;
 
-    printf("\n Bem Vindo! Venha fazer o seu Cadastro \n\n");
+    printf("\n --------------------------- Bem Vindo! Venha fazer o seu Cadastro ---------------------------\n\n");
 
     while (x != 1) {
         printf(" \n Digite seu nome completo: ");
@@ -55,8 +55,7 @@ int main() {
         scanf("%f", &media);
         fflush(stdin);
 
-        printf("\n----------------------------------------");
-        printf("\n\nDADOS PARA CONFIRMACAO\n\n");
+        printf("\n\n --------------------------- DADOS PARA CONFIRMACAO ---------------------------\n\n");
 
         printf("\n Seu nome: %s", nome);
         printf("\n Idade: %s", idade);
